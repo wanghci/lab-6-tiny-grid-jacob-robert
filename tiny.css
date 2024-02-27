@@ -1,0 +1,11 @@
+@media (max-width: 375px) {
+    .wrapper {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas:
+        "content";
+    }
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }

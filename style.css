@@ -35,7 +35,7 @@
     grid-template-areas:
       "header  header"
       "nav     nav"
-      "sidebar content"
+      "content"
       "ad      footer";
   }
   nav ul {
