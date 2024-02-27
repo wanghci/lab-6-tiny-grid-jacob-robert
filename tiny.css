@@ -1,11 +1,13 @@
 @media (max-width: 375px) {
     .wrapper {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 300 px 0 px;
       grid-template-areas:
         "content";
     }
-    nav ul {
-      display: flex;
-      justify-content: space-between;
+    nav ul, aside, .ad, footer, header {
+      display: none;
+      /* justify-content: space-between; */
+      /* visibility: hidden; */
+      /* grid-template-columns: 300px; */
     }
   }
